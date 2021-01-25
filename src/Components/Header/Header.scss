@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(45deg, #6CC6CB,#EAE5C9);
+  &-name {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    &-text {
+      font-family: sans-serif;
+      font-size: 4rem;
+      font-weight: 700;
+      margin-bottom: 0;
+      margin-right: 20px;
+    }
+    &-icon {
+      font-size: 3.8rem;
+    }
+  }
+  &-newTask{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &-textP{
+      font-size:2rem;
+      margin-bottom: 0;
+      margin-right: 10px;
+      font-weight: 600;
+    }
+    &-icon{
+      font-size: 3rem;
+    }
+  }
+  &-delTask{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &-textP{
+      font-size:2rem;
+      margin-bottom: 0;
+      margin-right: 10px;
+      font-weight: 600;
+    }
+    &-icon{
+      font-size: 3rem;
+    }
+  }
+}

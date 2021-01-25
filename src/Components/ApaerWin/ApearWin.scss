@@ -1,0 +1,58 @@
+.ApearWin {
+  background: #FFFFFF;
+  font-size: 1.8rem;
+  border: 1px solid #cdcdcd;
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  top: 20%;
+  left: calc(50% - 150px);
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: sans-serif;
+  text-align: center;
+  transition-duration: .5s;
+  &-text {
+    margin-top: 10px;
+  }
+
+  &-input {
+    display: block;
+    margin: 10px auto 0 auto;
+    border: none;
+    border-bottom: 1px solid #cdcdcd;
+    &:focus,
+    &:active {
+      outline: none;
+    }
+  }
+  &-input2 {
+    display: none;
+    
+  }
+  &-button {
+    border: none;
+    background: #ffffff;
+    margin-top: 35px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition-duration: .5s;
+    &:nth-child(3) {
+      margin-left: 150px;
+    }
+    &:nth-child(4) {
+      margin-left: 5px;
+    }
+    &:nth-child(3):hover {
+      background:  #7fcdd1;
+    }
+    &:nth-child(4):hover {
+     background:  #fda3a3;
+    }
+
+    &:focus,
+    &:active {
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.Footer {
+  height: 50px;
+  background: linear-gradient(45deg, #EAE5C9,#6CC6CB);
+  &-del {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    cursor: pointer;
+    &-text {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 0;
+    }
+    &-icon {
+      font-size: 2rem;
+      margin-left: 10px;
+    }
+  }
+}
